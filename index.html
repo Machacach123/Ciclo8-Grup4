@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portal Acadèmico UPeU</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <Style>
+        /* RESET CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            /* Color de fondo general */
+            color: #333;
+        }
+
+        /* Estilo para el encabezado */
+        header {
+            background: #d9f16b;
+            /* Color del encabezado */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #1d0303;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos para las secciones */
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            color: #232514;
+            /* Texto blanco en secciones con fondo de color */
+        }
+
+        /* Sección de Inicio */
+        .inicio {
+            background-color: #8cb6e4;
+            /* Color azul */
+        }
+
+        /* Sección de Bibliografía */
+        .biografia {
+            background-color: #eb64d9;
+            /* Color verde */
+        }
+
+        /* Sección de Habilidades */
+        .habilidades {
+            background-color: #ffc107;
+            /* Color amarillo */
+        }
+
+        /* Sección de Proyectos */
+        .proyectos {
+            background-color: #dc3545;
+            /* Color rojo */
+        }
+
+        /* Sección de Contacto */
+        .contacto {
+            background-color: #6f42c1;
+            /* Color púrpura */
+        }
+
+        /* Estilo de títulos */
+        h1,
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        /* Estilos para el formulario */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #0056b3;
+            /* Color del botón */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #004494;
+            /* Color del botón al pasar el ratón */
+        }
+
+        /* Estilo para el pie de página */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background color: #333;
+            /* Color del pie de página */
+            color: white;
+        }
+    </Style>
+</head>
+
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Talia Machaca Chambi</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#biografia">Bibliografía</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="inicio">
+        <h1>Bienvenido a Mi Página Personal</h1>
+        <p>Aquí encontrarás información sobre mí, mis habilidades, proyectos y cómo contactarme.</p>
+        <img src="logo.jpg" alt="Descripción de la imagen" class="header-image"> <!-- Añade la imagen aquí -->
+        <nav>
+
+    </section>
+
+    <!-- Sección de Bibliografía -->
+    <section id="biografia" class="biografia">
+        <h2>Bibliografía</h2>
+        <p>Escribe aquí una breve biografía sobre ti, incluyendo tu formación, experiencia laboral y otros datos
+            relevantes.</p>
+        <video controls width="600">
+            <source src="video.mp4" type="video/mp4"> <!-- Reemplaza con el nombre de tu archivo -->
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="habilidades" class="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Habilidad 1</li>
+            <li>Habilidad 2</li>
+            <li>Habilidad 3</li>
+            <li>Habilidad 4</li>
+            <li>Habilidad 5</li>
+        </ul>
+        <iframe width="598" height="336" src="https://www.youtube.com/embed/8pH3AhGwFGY"
+            title="Dúo Zimrah - Compañero De Viaje (Video Lyric Oficial) | Canción para parejas cristianas"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos" class="proyectos">
+        <h2>Proyectos</h2>
+        <p>Aquí puedes describir tus proyectos más relevantes, incluyendo enlaces o capturas de pantalla si es
+            necesario.</p>
+        <ul>
+            <li><a href="#">Proyecto 1</a> - Descripción breve del proyecto.</li>
+            <li><a href="#">Proyecto 2</a> - Descripción breve del proyecto.</li>
+            <li><a href="#">Proyecto 3</a> - Descripción breve del proyecto.</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas ponerte en contacto conmigo, puedes hacerlo a través del siguiente formulario:</p>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 - Mi Nombre. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
